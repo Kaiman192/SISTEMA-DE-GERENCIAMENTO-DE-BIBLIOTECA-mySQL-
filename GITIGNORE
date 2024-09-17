@@ -1,0 +1,23 @@
+# Ignore o arquivo de banco de dados
+*.sql
+
+# Ignore arquivos temporários
+*.log
+*.tmp
+
+# Ignore arquivos de configuração específicos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.suo
+*.sln
+
+# Ignore arquivos de ambiente virtual do Python
+env/
+venv/
+__pycache__/
+*.pyc
