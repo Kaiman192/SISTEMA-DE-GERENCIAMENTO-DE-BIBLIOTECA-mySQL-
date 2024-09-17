@@ -1,0 +1,39 @@
+# Sistema de Biblioteca
+
+Este projeto implementa um sistema simples de gerenciamento de biblioteca utilizando MySQL. O banco de dados foi projetado para armazenar informações sobre autores, livros e empréstimos.
+
+## Estrutura do Banco de Dados
+
+O banco de dados contém três tabelas:
+
+- **Autores**: Armazena informações sobre os autores dos livros.
+- **Livros**: Armazena informações sobre os livros, incluindo o título, autor, ano de publicação e gênero.
+- **Emprestimos**: Armazena informações sobre os empréstimos de livros, incluindo a data de empréstimo, data de devolução e o nome do usuário.
+
+## Passos para Configuração
+
+1. **Criar o banco de dados e tabelas:**
+   - Execute o script SQL fornecido para criar o banco de dados `Biblioteca` e as tabelas `Autores`, `Livros` e `Emprestimos`.
+
+2. **Inserir dados:**
+   - Os dados iniciais são inseridos nas tabelas `Autores`, `Livros` e `Emprestimos`.
+
+3. **Consultas de Dados:**
+   - Listagem de livros com nomes dos autores.
+   - Listagem de empréstimos que ainda estão em aberto.
+
+4. **Atualização e Exclusão de Dados:**
+   - Atualização da data de devolução de um empréstimo específico.
+   - Remoção de um livro e os registros de empréstimos associados a ele.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contribuições
+
+Contribuições são bem-vindas! Se você quiser contribuir para este projeto, por favor, envie um pull request.
+
+## Contato
+
+Para mais informações, entre em contato com [Seu Nome](mailto:seuemail@example.com).
